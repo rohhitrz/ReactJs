@@ -3,7 +3,10 @@ import { useState } from 'react'
 function App() {
 let [count,setCount]=useState(1);
 const addValue=()=>{
-  setCount(count+1);
+  setCount((prev)=>prev+1);
+  setCount((prev)=>prev+1);
+  setCount((prev)=>prev+1);
+  
   
 }
 const decreaseValue =()=>{
